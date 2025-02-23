@@ -9,16 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Handlee&family=Italianno&family=Montserrat&family=Roboto:wght@400;500;700;900&family=Satisfy&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <!-- for font awesome cdn link -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer" />
     <!-- For css style link  -->
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -102,8 +100,7 @@
                   type="checkbox"
                   name="phone"
                   id="phone"
-                  value="phone"
-                />Phone</label
+                  value="phone" />Phone</label
               >
             </li>
 
@@ -113,8 +110,7 @@
                   type="checkbox"
                   name="tablets"
                   id="tablets"
-                  value="tablets"
-                />Tablets</label
+                  value="tablets" />Tablets</label
               >
             </li>
 
@@ -124,8 +120,7 @@
                   type="checkbox"
                   name="televisions"
                   id="televisions"
-                  value="televisions"
-                />Televisions</label
+                  value="televisions" />Televisions</label
               >
             </li>
 
@@ -135,8 +130,7 @@
                   type="checkbox"
                   name="computers"
                   id="computers"
-                  value="computers"
-                />Computers</label
+                  value="computers" />Computers</label
               >
             </li>
 
@@ -146,8 +140,7 @@
                   type="checkbox"
                   name="headphone"
                   id="headphone"
-                  value="headphone"
-                />Headphone</label
+                  value="headphone" />Headphone</label
               >
             </li>
           </ul>
@@ -164,8 +157,7 @@
                   type="radio"
                   name="price"
                   id="price1"
-                  value="[0,20]"
-                />$0-$20</label
+                  value="[0,20]" />$0-$20</label
               >
             </li>
             <li class="list_item">
@@ -174,8 +166,7 @@
                   type="radio"
                   name="price"
                   id="price2"
-                  value="[21,50]"
-                />$21-$50</label
+                  value="[21,50]" />$21-$50</label
               >
             </li>
             <li class="list_item">
@@ -184,8 +175,7 @@
                   type="radio"
                   name="price"
                   id="price3"
-                  value="[51,100]"
-                />$51-$100</label
+                  value="[51,100]" />$51-$100</label
               >
             </li>
             <li class="list_item">
@@ -194,8 +184,7 @@
                   type="radio"
                   name="price"
                   id="price4"
-                  value="[101,500]"
-                />$101-$500</label
+                  value="[101,500]" />$101-$500</label
               >
             </li>
             <li class="list_item">
@@ -204,8 +193,7 @@
                   type="radio"
                   name="price"
                   id="price5"
-                  value="[501+]"
-                />$501+</label
+                  value="[501+]" />$501+</label
               >
             </li>
           </ul>
@@ -221,8 +209,7 @@
                   type="radio"
                   name="shopping"
                   id="free"
-                  value="free"
-                />Free</label
+                  value="free" />Free</label
               >
             </li>
             <li class="list_item">
@@ -231,8 +218,7 @@
                   type="radio"
                   name="shopping"
                   id="paid"
-                  value="paid"
-                />Paid</label
+                  value="paid" />Paid</label
               >
             </li>
           </ul>
@@ -242,54 +228,239 @@
       <!-- SidebarEnds Hear  -->
       <!-- Product body Section Start Hear  -->
       <div class="main-content">
-        <!-- Search and sort by product section start Hear  -->
+        <!-- Search and sort by product section Hear  -->
         <section class="action flex-space-around">
           <!-- Action Sort by -->
           <div class="action_sort">
             <label for="sort">Sort By:</label>
             <select name="sort" id="sort">
               <option value="sold">Most Sold First</option>
-              <option value="rating">Most Reted First</option>
-              <option value="price">Cheapst First</option>
-              <option value="arival">Newest First</option>
+              <option value="rating">Most Rated First</option>
+              <option value="price">Cheapest First</option>
+              <option value="arrival">Newest First</option>
               <option value="discount">Biggest First</option>
             </select>
           </div>
           <!-- Action Search  -->
-          <div class="action-srarch flex-space-around">
+          <div class="action-search flex-space-around">
             <input type="text" placeholder="Search Product" />
             <button class="btn">
               <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
             </button>
           </div>
         </section>
-        <!-- Search and sort by product section End Hear  -->
-         <!-- Products Details section Start Hear  -->
-          <section class="produts">
-            <!-- Product 1  -->
-             <article class="product card">
-                <!-- Bodge & Img -->
-                <div class="badge">
-                    <span>5 in stock</span>
-                    <hr class="hr-design">
-                    <span>3 sold</span>
-                    <img src="./images/headphone.jpg" alt="Headphone" class="product_img">
-                </div>
-                <!-- Product Body  -->
-                 <div class="product_body">
-                    <h3 class="product_name">Sony V-4 Headphone</h3>
-                    <p>
-                        <span class="dot green"></span>
-                        <span class="dot black"></span>
-                        <span class="dot red"></span>
-                    </p>
-                    <p class="product_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit asperiores perferendis ex dolores odio eum provident ullam iste fuga commodi accusantium, maxime mollitia quas explicabo......</p><a href="product.html" class="learn-more">Learn More</a>
-                    <h4 class="product_price">$150.99</h4>
-                    <p class="product_rating">Rating 4.5/5</p>
-                    <button class="btn">ADD TO CART</button>
-                 </div>
-          </section>
-         <!-- Products Details section End Hear  -->
+
+        <!-- Products Details section Hear  -->
+        <section class="produts">
+          <!-- Product 1  -->
+          <article class="product card">
+            <!-- Bodge & Img -->
+            <div class="badge">
+              <span>5 in stock</span>
+              <hr class="hr-design" />
+              <span>3 sold</span>
+            </div>
+            <img
+                src="./images/headphone.jpg"
+                alt="Headphone"
+                class="product_img" />
+            <!-- Product Body  -->
+            <div class="product_body">
+              <h3 class="product_name">Sony V-4 Headphone</h3>
+              <p>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+              </p>
+              <p class="product_description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                asperiores perferendis ex dolores odio eum provident ullam iste
+                fuga commodi accusantium, maxime mollitia quas explicabo......
+              </p>
+              <a href="product.html" class="learn-more">Learn More</a>
+              <h4 class="product_price">$150.99</h4>
+              <p class="product_rating">Rating 4.5/5</p>
+              <button class="btn">ADD TO CART</button>
+            </div>
+          </article>
+          <!-- Product 2  -->
+          <article class="product card">
+            <!-- Bodge & Img -->
+            <div class="badge">
+              <span>6 in stock</span>
+              <hr class="hr-design" />
+              <span>4 sold</span>
+            </div>
+            <img
+              src="./images/Mouse.jpg"
+              alt="Mouse"
+              class="product_img" />
+            <!-- Product Body  -->
+            <div class="product_body">
+              <h3 class="product_name">Google Mouse</h3>
+              <p>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+              </p>
+              <p class="product_description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                asperiores perferendis ex dolores odio eum provident ullam iste
+                fuga commodi accusantium, maxime mollitia quas explicabo......
+              </p>
+              <a href="product.html" class="learn-more">Learn More</a>
+              <h4 class="product_price">$150.99</h4>
+              <p class="product_rating">Rating 4.5/5</p>
+              <button class="btn">ADD TO CART</button>
+            </div>
+          </article>
+          <!-- Product 3  -->
+          <article class="product card">
+            <!-- Bodge & Img -->
+            <div class="badge">
+              <span>7 in stock</span>
+              <hr class="hr-design" />
+              <span>3 sold</span>
+            </div>
+            <img
+              src="./images/Nike.jpg"
+              alt="Nike Shoes"
+              class="product_img" />
+            <!-- Product Body  -->
+            <div class="product_body">
+              <h3 class="product_name">Nike Shoes</h3>
+              <p>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+              </p>
+              <p class="product_description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                asperiores perferendis ex dolores odio eum provident ullam iste
+                fuga commodi accusantium, maxime mollitia quas explicabo......
+              </p>
+              <a href="product.html" class="learn-more">Learn More</a>
+              <h4 class="product_price">$150.99</h4>
+              <p class="product_rating">Rating 4.5/5</p>
+              <button class="btn">ADD TO CART</button>
+            </div>
+          </article>
+          <!-- Product 4  -->
+          <article class="product card">
+            <!-- Bodge & Img -->
+            <div class="badge">
+              <span>7 in stock</span>
+              <hr class="hr-design" />
+              <span>3 sold</span>
+            </div>
+            <img
+              src="./images/Spaker.jpg"
+              alt="Bluetooth Speaker"
+              class="product_img" />
+            <!-- Product Body  -->
+            <div class="product_body">
+              <h3 class="product_name">Bluetooth Speaker</h3>
+              <p>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+              </p>
+              <p class="product_description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                asperiores perferendis ex dolores odio eum provident ullam iste
+                fuga commodi accusantium, maxime mollitia quas explicabo......
+              </p>
+              <a href="product.html" class="learn-more">Learn More</a>
+              <h4 class="product_price">$150.99</h4>
+              <p class="product_rating">Rating 4.5/5</p>
+              <button class="btn">ADD TO CART</button>
+            </div>
+          </article>
+          <!-- Product 5  -->
+          <article class="product card">
+            <!-- Bodge & Img -->
+            <div class="badge">
+              <span>7 in stock</span>
+              <hr class="hr-design" />
+              <span>3 sold</span>
+            </div>
+            <img
+              src="./images/sony.jpg"
+              alt="Sony Xperia"
+              class="product_img" />
+            <!-- Product Body  -->
+            <div class="product_body">
+              <h3 class="product_name">Sony Xperia</h3>
+              <p>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+              </p>
+              <p class="product_description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                asperiores perferendis ex dolores odio eum provident ullam iste
+                fuga commodi accusantium, maxime mollitia quas explicabo......
+              </p>
+              <a href="product.html" class="learn-more">Learn More</a>
+              <h4 class="product_price">$150.99</h4>
+              <p class="product_rating">Rating 4.5/5</p>
+              <button class="btn">ADD TO CART</button>
+            </div>
+          </article>
+          <!-- Product 6  -->
+          <article class="product card">
+            <!-- Bodge & Img -->
+            <div class="badge">
+              <span>6 in stock</span>
+              <hr class="hr-design" />
+              <span>4 sold</span>
+            </div>
+            <img
+              src="./images/cttizen.jpg"
+              alt="Cttizen Watch"
+              class="product_img" />
+            <!-- Product Body  -->
+            <div class="product_body">
+              <h3 class="product_name">Cttizen Watch</h3>
+              <p>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+              </p>
+              <p class="product_description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                asperiores perferendis ex dolores odio eum provident ullam iste
+                fuga commodi accusantium, maxime mollitia quas explicabo......
+              </p>
+              <a href="product.html" class="learn-more">Learn More</a>
+              <h4 class="product_price">$150.99</h4>
+              <p class="product_rating">Rating 4.5/5</p>
+              <button class="btn">ADD TO CART</button>
+            </div>
+          </article>
+        </section>
+        
+        <!-- Page Pagination Hear   -->
+        <div class="pagination">
+            <button class="btn pagination_btn"><i class="fas fa-less-than"></i></button>
+            <button class="btn pagination_btn">1</button>
+            <button class="btn pagination_btn">2</button>
+            <button class="btn pagination_btn">3</button>
+            <button class="btn pagination_btn">4</button>
+            <button class="btn pagination_btn">5</button>
+            <button class="btn pagination_btn">6</button>
+            <button class="btn pagination_btn">7</button>
+            <button class="btn pagination_btn">8</button>
+            <button class="btn pagination_btn">9</button>
+            <button class="btn pagination_btn">10</button>
+            <button class="btn pagination_btn">....</button>
+            <button class="btn pagination_btn">50</button>
+
+            <button class="btn pagination_btn"><i class="fas fa-greater-than"></i></button>
+        </div>
+
+
+
       </div>
       <!-- Product body Section Ends Hear  -->
     </main>
